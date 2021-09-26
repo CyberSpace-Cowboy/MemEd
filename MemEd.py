@@ -54,10 +54,10 @@ if __name__ == "__main__":
 	root.geometry("500x538")
 
 	# Taking images using the pillow module which has a class ImageTk
-	image_no_1 = ImageTk.PhotoImage(Image.open("1.png"))
-	image_no_2 = ImageTk.PhotoImage(Image.open("2.png"))
-	image_no_3 = ImageTk.PhotoImage(Image.open("3.png"))
-	image_no_4 = ImageTk.PhotoImage(Image.open("4.png"))
+	image_no_1 = ImageTk.PhotoImage(Image.open("img/1.png"))
+	image_no_2 = ImageTk.PhotoImage(Image.open("img/2.png"))
+	image_no_3 = ImageTk.PhotoImage(Image.open("img/3.png"))
+	image_no_4 = ImageTk.PhotoImage(Image.open("img/4.png"))
 
 	List_images = [image_no_1, image_no_2, image_no_3, image_no_4]
 
